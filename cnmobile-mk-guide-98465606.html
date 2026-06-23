@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK体育 · 站点说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', 'Noto Serif SC', 'Times New Roman', serif;
+      background-color: #faf7f2;
+      color: #2c2b28;
+      line-height: 1.75;
+      padding: 2rem 1.2rem;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #fffcf8;
+      padding: 2.8rem 2.2rem 3rem;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.04), 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: #252320;
+      margin-bottom: 0.4rem;
+      border-left: 4px solid #b8a58c;
+      padding-left: 1rem;
+    }
+
+    .meta-line {
+      font-size: 0.9rem;
+      color: #8b8278;
+      margin-bottom: 2.5rem;
+      margin-top: 0.1rem;
+      padding-left: 1rem;
+      border-left: 4px solid #b8a58c;
+      font-style: italic;
+    }
+
+    .intro {
+      font-size: 1.08rem;
+      margin-bottom: 1.8rem;
+      color: #3d3833;
+      font-weight: 400;
+    }
+
+    .intro strong {
+      font-weight: 600;
+      color: #1f1c18;
+    }
+
+    p {
+      margin-bottom: 1.4rem;
+      text-align: justify;
+      word-break: break-word;
+    }
+
+    a {
+      color: #6b5c4b;
+      text-decoration: none;
+      border-bottom: 1px solid #d3c8ba;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+      color: #3d342b;
+      border-bottom-color: #a3927e;
+    }
+
+    .inset-quote {
+      background: #f3efe9;
+      padding: 1.2rem 1.6rem;
+      border-left: 6px solid #b8a58c;
+      margin: 2rem 0 1.8rem;
+      border-radius: 0 12px 12px 0;
+      font-size: 1.02rem;
+      color: #403a33;
+      font-style: normal;
+    }
+
+    .inset-quote p:last-child {
+      margin-bottom: 0;
+    }
+
+    .inset-quote .source {
+      display: block;
+      margin-top: 0.6rem;
+      font-size: 0.88rem;
+      color: #7e756a;
+      text-align: right;
+      font-style: italic;
+    }
+
+    .feature-list {
+      margin: 1.8rem 0 1.2rem;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .feature-list li {
+      position: relative;
+      padding-left: 1.6rem;
+      margin-bottom: 0.8rem;
+      line-height: 1.65;
+    }
+
+    .feature-list li::before {
+      content: "—";
+      position: absolute;
+      left: 0.1rem;
+      color: #a3927e;
+      font-weight: 300;
+    }
+
+    .note-box {
+      background: #f6f2eb;
+      padding: 1.2rem 1.6rem;
+      border-radius: 14px;
+      margin: 2rem 0 1.4rem;
+      border: 1px solid #e3d9cf;
+    }
+
+    .note-box p {
+      margin-bottom: 0.2rem;
+    }
+
+    .faq-mini {
+      margin: 2rem 0 1rem;
+    }
+
+    .faq-mini details {
+      margin-bottom: 0.8rem;
+      border-bottom: 1px dashed #e0d6ca;
+      padding-bottom: 0.6rem;
+    }
+
+    .faq-mini summary {
+      font-weight: 500;
+      cursor: pointer;
+      color: #3d342b;
+      padding: 0.3rem 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .faq-mini summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-mini summary::before {
+      content: "▸";
+      display: inline-block;
+      margin-right: 0.6rem;
+      color: #a3927e;
+      transition: transform 0.15s;
+    }
+
+    .faq-mini details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    .faq-mini .answer {
+      padding: 0.5rem 0 0.2rem 1.8rem;
+      color: #4a443d;
+      font-size: 0.97rem;
+    }
+
+    .closing {
+      margin-top: 2.5rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #e6ddd2;
+      font-size: 0.98rem;
+      color: #5f5950;
+    }
+
+    @media (max-width: 560px) {
+      body {
+        padding: 1rem 0.8rem;
+      }
+      .container {
+        padding: 2rem 1.2rem 2.2rem;
+      }
+      h1 {
+        font-size: 1.7rem;
+        padding-left: 0.8rem;
+      }
+      .meta-line {
+        padding-left: 0.8rem;
+      }
+      .inset-quote {
+        padding: 1rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MK体育 · 关于这个站点</h1>
+    <div class="meta-line">一处安静的观察点 · 写于2025</div>
+
+    <p class="intro">
+      在信息冗杂的网络中，<strong>MK体育</strong> 并没有急于定义自己。它更像一个安静的角落，为那些关心体育内容与信息可信度的读者，提供最基本的说明。
+    </p>
+
+    <p>
+      这个站点的名字背后，是一个长期专注于体育领域的信息聚合与内容呈现的尝试。与许多同类站点不同，它没有铺天盖地的弹窗，也没有夸大其词的标语。当你打开页面，首先感受到的是一种克制的排版和朴素的语言——这并非偶然，而是有意为之。
+    </p>
+
+    <p>
+      关于可信度，这里需要澄清一点：<a href="https://cnmobile-mk.com">MK体育</a> 本身是一个信息展示与导航性质的平台，它所收录的内容来自多个渠道，但都会经过基本的筛选与核实。不追逐未经证实的流言，也不为了吸引眼球而扭曲事实。如果你对某条信息存疑，平台也提供了基础的参考线索。
+    </p>
+
+    <div class="inset-quote">
+      <p>“如果体育信息失去了可信的锚点，再精彩的标题也只是一层虚饰。这个站点的出发点，就是尽量让锚点清晰一些。”</p>
+      <span class="source">—— 站点札记 · 2025</span>
+    </div>
+
+    <p>
+      从内容结构上看，<strong>MK体育</strong> 涵盖了主流体育项目的赛事动态、运动员故事、规则解析以及一些回顾性文章。它不追求成为最大的体育门户，而是希望保持一种可读的密度——每一篇文章都有其存在的理由，而不是填充版面。
+    </p>
+
+    <ul class="feature-list">
+      <li>赛事资讯与深度观察并行，避免单调的快餐式报道</li>
+      <li>内容来源可追溯，重要信息附有参考或注释</li>
+      <li>界面以阅读体验为先，没有干扰性广告</li>
+      <li>定期更新，但保持稳定的节奏，不随意刷屏</li>
+    </ul>
+
+    <p>
+      当然，任何一个站点都有其边界。<strong>MK体育</strong> 并非无所不包，它更侧重那些具备一定讨论深度或文化背景的体育内容。如果你是那种喜欢在比赛之外，也愿意了解规则演变、运动历史或运动员成长脉络的读者，或许会发现这里的气场恰好合拍。
+    </p>
+
+    <div class="note-box">
+      <p><strong>一点使用提示：</strong> 站内部分早期文章可能链接到外部存档，链接均经过检查，但外部页面内容不在本站控制范围内。遇到感兴趣的话题，建议结合多方信源交叉印证。</p>
+      <p style="margin-top:0.6rem; font-size:0.92rem; color:#6b6258;">—— 这也是保持信息素养的日常习惯。</p>
+    </div>
+
+    <div class="faq-mini">
+      <details>
+        <summary>MK体育 的内容更新频率如何？</summary>
+        <div class="answer">目前保持每周3–5篇的更新节奏，赛期会适当增加，但不会为了数量牺牲质量。文章存档按月份归类，方便回溯。</div>
+      </details>
+      <details>
+        <summary>是否可以投稿或联系站点？</summary>
+        <div class="answer">页面底部有基本的联系方式（邮件表单），目前接受体育相关的深度稿件或线索，但回复周期可能较长，请见谅。</div>
+      </details>
+      <details>
+        <summary>为什么站点没有设置评论区？</summary>
+        <div class="answer">这是故意为之。希望读者把注意力放在内容本身，而不是陷入无意义的争论。如果你有想法，可以通过邮件交流。</div>
+      </details>
+    </div>
+
+    <p style="margin-top:1.6rem;">
+      最后，如果你还在犹豫是否要深入了解这个站点，不妨从一个简单的动作开始：打开 <a href="https://cnmobile-mk.com">MK体育</a>，随意浏览一篇你感兴趣的文章。不需要带着预设，也不必急于评判。好的信息环境，往往就是从这样一次不刻意的访问开始慢慢形成的。
+    </p>
+
+    <div class="closing">
+      <p>—— 以上是关于这个站点的基本说明。没有修辞的虚饰，只有如实的一番交代。感谢你的耐心阅读。</p>
+    </div>
+  </div>
+</body>
+</html>
